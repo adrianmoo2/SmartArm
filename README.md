@@ -1,46 +1,60 @@
 # Smartarm
 
-*Short description of your project, in one or two sentences.* 
+Remote bomb receptor and defuser with various (harmless) electrical components.
 
 ## Languages / Frameworks used
 
-* Adrian
-* Adrianblahblah
-* Adrianbloohblahblooey
+* C (Embedded)
 
 ## Purpose / Goals
 
-### Dependencies
+* Develop a mobile app in MIT App Inventor that allows the user to arm the bomb via communication using the HC-05 Bluetooth Module
+* Include visual and audial feedback on the app that shows if the bomb was armed, if it was defused, and if it has detonated
+* Implement USART on the Atmega1284 microcontrollers that allow them to both communicate with each other, and with the HC-05
 
-*Provide links and descriptions for the third-party libraries you're having your users install.*
+* Create a bomb on a breadboard using harmless EE components including:
+```
+2 x Atmega1284
+1x LCD Display (HD44780)
+1x Keypad
+1x 7 Segment Display (IS132)
+3 x LED
+1 x Hobby Motor (ROB-11696)
+```
+
+* Allow for defusal of the bomb using the keypad connected to the the Atmega1284's and a specific keycode
 
 ### Installation
 
 * Mac OS X
 * Ubuntu
 * Windows (if applicable)
+* [Ateml Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+* [Pinout in Report](https://docs.google.com/document/d/1WL5iKJL9xsOxJTR1RYp9X0D2OAbXhJGG5hFqgCO2c2k/edit#)
 
 ### Getting started
 
-*What does your user need to know to get everything ready after installation?*
-*Think about databases, config files, and settings.*
+![Flowchart](https://user-images.githubusercontent.com/14877762/61165324-bf891e80-a4d3-11e9-8f38-11b14fd5cc3f.png)
+
 
 ## Usage
 
-*Give your users a sense of the workflow for using your project/tool.*
-*For a website this might include code for running locally.*
-*For an API this might include method and parameter specs.*
+One area I wanted to explore with the software and hardware of this project is the implementation of a lock system. Instead of using the app to arm the bomb, it could be used to arm a lock (e.g. on a door).
 
 ## Demo
 
-*Grab a simple block of code that makes use of your project/tool and paste it here.*
+![Pinout](https://user-images.githubusercontent.com/14877762/61165424-3246c980-a4d5-11e9-89b3-d6a8e1db1aef.png)
+
+![Image](https://user-images.githubusercontent.com/14877762/61165427-4094e580-a4d5-11e9-9bfe-b4dea6b91e2b.png)
+
 
 ## Team
 
-* User's Name
-* *Name, Organization - role or tasks worked on*
+* Adrian Tran
 
-*Add a "contributors" section if you've incorporated pull requests.*
+## Report
+
+[Google Doc](https://docs.google.com/document/d/1WL5iKJL9xsOxJTR1RYp9X0D2OAbXhJGG5hFqgCO2c2k/edit#)
 
 ## Errors and bugs
 

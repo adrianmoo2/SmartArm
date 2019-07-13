@@ -4,7 +4,7 @@ Remote bomb receptor and defuser with various (harmless) electrical components.
 
 ## Languages / Frameworks used
 
-* C (Embedded)
+* Embedded C
 
 ## Purpose / Goals
 
@@ -47,6 +47,7 @@ One area I wanted to explore with the software and hardware of this project is t
 
 ![Image](https://user-images.githubusercontent.com/14877762/61165427-4094e580-a4d5-11e9-9bfe-b4dea6b91e2b.png)
 
+[Video](https://www.youtube.com/watch?v=_tdB1FJhFLE&feature=youtu.be)
 
 ## Team
 
